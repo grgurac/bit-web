@@ -1,0 +1,24 @@
+body {
+    background-color: #3c1731;
+}
+
+#first {
+    color: #e9e7ea;
+    background-color: #5d374f;
+    opacity: 0.5;
+}
+
+#second {
+    color:#e9e7ea;
+    background-color: rgba(93, 55, 79, 0.5);
+        
+}
+
+#third {
+    color: #e9e7ea;
+    background-color: rgb(93, 55, 79);
+}
+
+.picture1 {
+    opacity: 0.5;
+}
