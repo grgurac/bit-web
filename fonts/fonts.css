@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Great Vibes";
+    src: url("./GreatVibes-Regular.otf")
+}
+
+@font-face {
+    font-family: 'airstrikeregular';
+    src: url('./fonts/airstrike-webfont.woff2') format('woff2'),
+         url('./fonts/airstrike-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: "Gamja Flower";
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.first {
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: left;
+    letter-spacing: 5px;
+}
+
+.second {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-transform: lowercase;
+    text-decoration: line-through;
+    text-align: right;
+    line-height: 200%;
+}
+
+.third {
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    text-decoration: overline;
+    text-align: center;
+}
+
+#first {
+    font-family: fantasy;
+}
+
+p span {
+    font-weight: 200;
+    font-style: italic;
+    font-size: 0.4em;
+}
+
+h1 {
+    font-family: "airstrikeregular";
+}
+
+ul {
+    color: rgb(80, 28, 28);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+ul li a:link {
+    color: #ff0000;
+}
+
+ul li a:visited {
+    color: rgb(0, 0, 0);
+}
+
+ul li a:hover {
+    color: green;
+}
+
+ul li a:active {
+    color: rgb(17, 143, 228)
+}
