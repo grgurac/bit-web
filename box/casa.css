@@ -1,0 +1,51 @@
+.first {
+    background-color: yellow;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: red;
+    padding: 0px;
+    margin-right: 20px;
+    width: 300px;
+    box-sizing: border-box;
+    display: inline-block;
+
+}
+
+.second {
+    background-color: rgb(18, 212, 212);
+    border: 5px solid green;
+    padding-top: 50px;
+    width:400px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    display: none;
+    
+
+}
+
+.third {
+    background-color: #ffff00;
+    border-width: 5px;
+    border-style: dotted;
+    border-color: red;
+    padding: 50px;
+    width: 200px;
+    margin-left: 100px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    visibility: hidden;
+}
+
+.naslov {
+    width: 960px;
+    padding: 50px 0px;
+    margin: auto;
+    background-color: beige;
+    color: slateblue;
+    font-family: "fantasy";
+    box-shadow: 5px 10px 20px 40px forestgreen; 
+    text-align: center;
+    border-radius: 10px 700px 3px 20px;
+}
+    
