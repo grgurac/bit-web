@@ -1,0 +1,49 @@
+.first {
+    list-style-type: circle;
+}
+
+.second {
+    list-style-type: square;
+}
+
+.third {
+    list-style-type: upper-alpha;
+}
+
+.fourth {
+    list-style-type: upper-roman;
+}
+
+.nestor{
+    list-style-image: url("./vulin.jpg");
+    width: 200px;
+
+}
+.svaler{
+    list-style-image: url("./dacinjo.jpg");
+    width: 200px;
+    list-style-position: inside;
+}
+table{
+    margin: 0 auto;
+}
+
+#malidacic{
+background-color: red;
+}
+
+td > img{   height: 100px;
+
+}
+
+td{
+    padding: 10px 0;
+}
+
+tr:hover{
+    background-color: blueviolet; 
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(212, 212, 212);
+}
