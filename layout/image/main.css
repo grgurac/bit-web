@@ -1,0 +1,33 @@
+img {
+    display: block;
+}
+.first {
+    height: 200px;
+    float: right;
+}
+
+.second {
+    width: 200px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.third {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+body {
+    background-image: url(https://cdn-images-1.medium.com/max/1920/1*BZhgq62f6X8eSELohvXpvQ.png); 
+    background-position-x: right;
+    background-position-y: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+   opacity: 0.5;
+
+}
+h1, h2, h3, p{
+    color: rgb(51, 50, 51);
+} 

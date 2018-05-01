@@ -1,0 +1,143 @@
+ul.meni {
+    background: #C1392B;
+    list-style-type: none;
+    width: 960px;
+    border: 1px;
+    float: right;
+   /* margin: 0px;*/
+   padding: 0px;
+}
+
+ul.clearfix::before, 
+ul.clearfix::after {
+    content: " ";
+    display: table;
+}
+ul.clearfix::after {
+    clear: both;
+}
+
+ul.meni li {
+    float: right;
+    margin: 10px;
+    color: azure;
+
+}
+.udemi {
+    float: right;
+    width: 960px;
+    position: absolute;
+    top: 62px;
+    right: 8px;
+}
+
+.div1 {
+    height: 200px;
+    width: 300px;
+    background: #C1392B;
+    position: relative;
+    top: 600px;
+    left: 380px;
+}
+.div2 {
+    height: 200px;
+    width: 300px;  
+    background: #2D3E50;
+    position: relative;
+    top: 400px;
+    left: 700px;
+}
+.div2a {
+    background: #FFBE00;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    float: right;
+    bottom: -200px;
+}
+
+.div2a ul{
+    padding: 0px;
+}
+
+.div2a li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0px;
+}
+    
+
+.div3 {
+    height: 200px;
+    width: 300px;
+    position: relative;
+    top: 400px;
+    left: 380px;
+}
+.div4 {
+    height: 200px;
+    width: 300px;
+    position: relative;
+    top: 200px;
+    left: 700px;
+}
+.div5 {
+    height: 200px;
+    width: 300px;
+    background: #FFBE00;
+    position: relative;
+    top: 220px;
+    left: 380px;
+}
+.div6 {
+    height: 200px;
+    width: 300px;
+    background:#27AE61 ;
+    position: relative;
+    top: 20px;
+    left: 700px;
+}
+
+.div7 {
+    height: 200px;
+    width: 300px;
+    background: #FFBE00;
+    position: relative;
+    top: -180px;
+    left: 1020px;
+}
+.div8 {
+    height: 200px;
+    width: 300px;
+    position: relative;
+    top: -160px;
+    left: 380px;
+}
+.div9 {
+    height: 200px;
+    width: 300px;
+    position: relative;
+    top: -360px;
+    left: 700px;
+}
+.div10 {
+    height: 200px;
+    width: 300px;
+    position: relative;
+    top: -560px;
+    left: 1020px;
+}
+.footer{
+    width: 1040px;
+    height: 40px;
+    background: #2D3E50;
+    color: white;
+    position: relative;
+    top: -560px;
+    left: 300px;
+}
+.footer p{
+    position: relative;
+    left: 100px;
+    top: 10px;
+}
