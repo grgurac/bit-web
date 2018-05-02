@@ -1,0 +1,64 @@
+.cont {
+    font-size: 16px;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+header {
+    display: block;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 55px;
+    margin: 0;
+}
+
+#small {
+    margin: 0px;
+    margin-left: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+h2 p {
+    font-size:
+}
+
+#pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    float: left;
+    margin-right: 30px;
+
+}
+
+
+section {
+    float: left;
+    display: inline-block;
+    width: 48%;
+    
+}
+
+#post {
+    float: right;
+    display: inline-block;
+    width: 48%;
+    border-left: 3px solid rgb(0, 0, 0);
+    padding-left: 3%;
+}
+
+#head {
+    margin-right: 30px;
+    float: left;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 40px;
+}
