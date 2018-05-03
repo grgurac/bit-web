@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "Roboto Bold";
+    src:url(./fonts/roboto-bold-webfont.woff),
+    url(./fonts/roboto-bold-webfont.woff2),
+    url(./fonts/Roboto-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: "Roboto";
+    src:url(./fonts/roboto-regular-webfont.woff),
+    url(./fonts/roboto-regular-webfont.woff2),
+    url(./fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Light";
+    src:url(./fonts/roboto-light-webfont.woff),
+    url(./fonts/roboto-light-webfont.woff2),
+    url(./fonts/Roboto-Light.ttf);
+}
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: "Roboto Light";
+    margin: 0px auto;
+    max-width: 960px;
+}
+
+.cf:before,
+.cf:after {
+    content:"";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+header {
+    background-image: url("images/banner3.jpg");
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    position: relative;
+    padding: 120px;
+}
+
+.slogan {
+    color: rgb(243, 243, 243);
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+    
+}
+
+.read_more {
+    background-color: rgb(58, 111, 180);
+    border-radius: 10%;
+    display: block;
+    align-content: center;
+    font-size: 13px;
+    text-align: center;
+    margin: 0px auto;
+    border: none;
+    padding: 10px 20px;
+    
+}
+.read_more a {
+    text-decoration: none;
+    color:beige;
+    
+}
+
+.main_menu {
+    background-color: rgb(101, 157, 241);
+    color: white;
+    text-align: center;
+    padding: 0;
+    font-style: 
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.build {
+    border-top: 4px solid rgb(54, 54, 54);
+    border-bottom: 4px solid rgb(54, 54, 54);
+    border-left: 4px solid rgb(54, 54, 54);
+    color: orange;
+    max-width: 80px;
+    padding-left: 10px;
+   
+
+}
+
+
+.main_menu li {
+    padding: 12px;
+    list-style-type: none;
+    align-content: center;
+ 
+}
+
+.main_menu li a {
+    color: beige;
+    text-decoration: none;
+    
+}
+
+.subtitle1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 34px;
+ }
+
+.sub_subtitle1 {
+    margin: 20px 0;
+    font-size: 25px;
+    color: rgb(101, 157, 241);
+}
+
+.sub_subtitle2 {
+    margin: 20px 0;
+    font-size: 25px;
+    color: rgb(101, 157, 241);
+}
+
+p {
+    margin: 20px 0;
+}
+
+.second_list {
+    list-style-type: none;
+    padding: 12px;
+    list-style-image: url("./images/arrow_bullet.png");
+    padding-left: 30px;
+
+}
+
+.third_list {
+    list-style-type: none;
+    padding: 12px;
+    list-style-image: url("./images/arrow_bullet.png");
+    padding-left: 20px;
+}
