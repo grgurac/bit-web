@@ -24,7 +24,6 @@
 
 * {
     box-sizing: border-box;
-    font-family: "Roboto Light";
     margin: 0px auto;
     max-width: 960px;
 }
@@ -39,8 +38,12 @@
     clear: both;
 }
 
+body {
+    font-family: "Roboto Light";
+}
 
-header {
+
+.head {
     background-image: url("images/banner3.jpg");
     width:100%;
     background-size: cover;
@@ -49,6 +52,10 @@ header {
     background-position: center;
     position: relative;
     padding: 120px;
+}
+
+.container {
+    max-width: 80%;
 }
 
 .slogan {
@@ -61,7 +68,7 @@ header {
 
 .read_more {
     background-color: rgb(58, 111, 180);
-    border-radius: 10%;
+    border-radius: 20%;
     display: block;
     align-content: center;
     font-size: 13px;
@@ -69,20 +76,22 @@ header {
     margin: 0px auto;
     border: none;
     padding: 10px 20px;
-    
-}
-.read_more a {
     text-decoration: none;
     color:beige;
-    
+    width: 120px;
+    height: 40px;
 }
+
 
 .main_menu {
     background-color: rgb(101, 157, 241);
     color: white;
     text-align: center;
     padding: 0;
-    font-style: 
+    width: 95%;
+    margin-bottom: 80px;
+    font-weight: bold;
+
 }
 
 h1 {
@@ -92,14 +101,21 @@ h1 {
 }
 
 .build {
-    border-top: 4px solid rgb(54, 54, 54);
-    border-bottom: 4px solid rgb(54, 54, 54);
-    border-left: 4px solid rgb(54, 54, 54);
+    border-top: 4px solid rgb(85, 85, 85);
+    border-bottom: 4px solid rgb(85, 85, 85);
+    border-left: 4px solid rgb(85, 85, 85);
     color: orange;
     max-width: 80px;
     padding-left: 10px;
-   
+}
 
+.building {
+    display: block;
+    align-content: center;
+}
+
+.estate {
+    color: rgb(85, 85, 85);
 }
 
 
@@ -122,33 +138,167 @@ h1 {
     font-size: 34px;
  }
 
+ .diamond {
+     width: 60px;
+     position: relative;
+ }
+
+ .diamond-inner {
+    width: 30px;
+    height: 30px;
+    border: 3px solid black;
+    transform: rotate(45deg);
+ }
+
+ .diamond::before,
+ .diamond::after {
+    position: absolute;
+    top: 50%;
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: black;   
+ }
+
+.diamond::before {
+    right: 100%;  
+}
+
+.diamond::after {
+    left: 100%;  
+}
+
 .sub_subtitle1 {
-    margin: 20px 0;
-    font-size: 25px;
+    margin: 50px 0;
+    font-size: 30px;
     color: rgb(101, 157, 241);
 }
 
 .sub_subtitle2 {
-    margin: 20px 0;
-    font-size: 25px;
+    margin: 50px 0;
+    font-size: 30px;
     color: rgb(101, 157, 241);
 }
 
 p {
     margin: 20px 0;
+    font-size: 19px;
 }
 
 .second_list {
     list-style-type: none;
-    padding: 12px;
+    padding: 17px;
     list-style-image: url("./images/arrow_bullet.png");
     padding-left: 30px;
+    color:#8b8181;
+    font-weight: bold;
+}
 
+.second_list li {
+    list-style-type: none;
+    padding: 10px;
+    list-style-image: url("./images/arrow_bullet.png");
+    padding-left: 10px;
 }
 
 .third_list {
     list-style-type: none;
-    padding: 12px;
+    padding: 17px;
     list-style-image: url("./images/arrow_bullet.png");
-    padding-left: 20px;
+    padding-left: 30px;
+    color:#8b8181;
+    font-weight: bold;
+}
+
+.third_list li {
+    list-style-type: none;
+    padding: 10px;
+    list-style-image: url("./images/arrow_bullet.png");
+    padding-left: 10px;
+}
+
+.subtitle1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 34px;
+ }
+
+.whatpeoplesay {
+    margin-bottom: 50px;
+}
+
+.people {
+    list-style-type: none;
+    
+}
+
+.people article {
+    background-color: rgba(57, 149, 224, 0.726);
+    margin-bottom: 10px;
+}
+
+.name {
+    float: left;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+
+
+.pic {
+    border-radius: 100%;
+    width: 80px;
+    border: 2px solid white;
+    padding: 3px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    margin-right: 20px;
+
+}
+
+.people article > p {
+    padding: 0 17px;
+    color: white;
+}
+
+.touch {
+    margin-top: 110px;
+}
+
+.data {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.data h4 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.data li {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+.green {
+    background-color: rgb(97, 199, 127);
+    margin-top: 30px;
+    padding: 20px 0;
+}
+
+.green p {
+    margin: 10px 0;
+}
+
+.pink {
+    background-color: rgb(199, 81, 101);
+
+    padding: 20px 0;
 }
