@@ -1,0 +1,26 @@
+header {
+    text-align: center;
+    padding: 40px 0;
+    background-color: $greenish;
+    color:white;
+}
+
+header h1, header h4 {
+    padding: 10px 0;
+}
+
+.about {
+    text-align: center;
+    background-color: $greenish;
+    color: white;
+    padding: 30px 5px;
+    margin-top: 50px;
+}
+
+.about p {
+    text-align: left;
+}
+
+.about i {
+    padding-right:3px;
+}

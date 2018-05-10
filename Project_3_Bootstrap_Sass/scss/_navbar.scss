@@ -1,0 +1,35 @@
+.navbar-bg { 
+    background-color: $blueish;
+    color: white;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: none;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.navbar-toggler-icon p {
+    margin: 0;
+}
+.navbar-toggler-icon i {
+    margin-left: 5px;
+}
+.navbar-toggler {
+    background-color: $greenish;
+    line-height: normal;
+}

@@ -1,0 +1,24 @@
+.break {
+    width: 100%;
+    text-align: center;
+}
+
+.line {
+    display: inline-block;
+    height: 20px;
+    width: 80px;
+    border-top: 5px solid rgb(255, 255, 255);
+}
+
+.square {
+    display: inline-block;
+    margin: 0px 10px;
+    position: relative;
+    top: -9px;
+    font-size: 28px;
+    
+}
+
+.black-line {
+    border-top: 5px solid rgb(0, 0, 0);
+}

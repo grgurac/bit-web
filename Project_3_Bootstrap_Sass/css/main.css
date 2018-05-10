@@ -1,0 +1,87 @@
+.navbar-bg {
+  background-color: #2c3e50;
+  color: white; }
+
+.navbar-light .navbar-brand {
+  color: white; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: white; }
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: white; }
+
+.navbar-light .navbar-toggler-icon {
+  background-image: none;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.navbar-toggler-icon p {
+  margin: 0; }
+
+.navbar-toggler-icon i {
+  margin-left: 5px; }
+
+.navbar-toggler {
+  background-color: #18bc9c;
+  line-height: normal; }
+
+.break {
+  width: 100%;
+  text-align: center; }
+
+.line {
+  display: inline-block;
+  height: 20px;
+  width: 80px;
+  border-top: 5px solid white; }
+
+.square {
+  display: inline-block;
+  margin: 0px 10px;
+  position: relative;
+  top: -9px;
+  font-size: 28px; }
+
+.black-line {
+  border-top: 5px solid black; }
+
+.container .row .col-12 img {
+  width: 100%; }
+
+.portfolio {
+  padding: 0px 30px;
+  text-align: center;
+  margin-top: 50px; }
+
+.portfolio img {
+  margin: 10px 0; }
+
+.portfolio h1 {
+  margin-bottom: 15px; }
+
+header {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #18bc9c;
+  color: white; }
+
+header h1, header h4 {
+  padding: 10px 0; }
+
+.about {
+  text-align: center;
+  background-color: #18bc9c;
+  color: white;
+  padding: 30px 5px;
+  margin-top: 50px; }
+
+.about p {
+  text-align: left; }
+
+.about i {
+  padding-right: 3px; }
+
+/*# sourceMappingURL=main.css.map */
