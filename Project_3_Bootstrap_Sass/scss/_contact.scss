@@ -1,0 +1,24 @@
+.contact {
+    padding: 10px;
+    margin: 50px 0;
+    h1 {
+        text-align: center;
+    }
+    textarea {
+        display: block;
+        width: 100%;
+        @include input-border-style;
+    }
+    input {
+        @include input-border-style;
+        padding: 0px 12px;
+    }
+    label {
+        color: #85909a;
+        margin-bottom: 0px;
+    }
+    button {
+        background-color: $greenish;
+        border: none;
+    }
+} 

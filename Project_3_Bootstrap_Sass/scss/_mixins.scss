@@ -1,1 +1,7 @@
- 
+ @mixin input-border-style() {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px  solid #f4f4f4;
+
+ }
